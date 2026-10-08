@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     
     <!-- SEO ve Arama Motoru Ayarları -->
-    <title>ANKA AI - Yapay Zeka Asistanı</title>
-    <meta name="description" content="ANKA AI - Rana Nisa Topçu tarafından geliştirilen, çok dilli sohbet edebilen ve fotogerçekçi görseller üretebilen yapay zeka asistanı.">
-    <meta name="keywords" content="ANKA AI, ANKA yapay zeka, Rana Nisa Topçu, yapay zeka çizim, fotoğraf üretme, AI sohbet">
+    <title>ART AI - Yapay Zeka Asistanı</title>
+    <meta name="description" content="ART AI - Rana Nisa Topçu tarafından geliştirilen, çok dilli sohbet edebilen ve fotogerçekçi görseller üretebilen yapay zeka asistanı.">
+    <meta name="keywords" content="ART AI, ART yapay zeka, Rana Nisa Topçu, yapay zeka çizim, fotoğraf üretme, AI sohbet">
     <meta name="author" content="Rana Nisa Topçu">
     <meta name="robots" content="index, follow">
 
     <!-- Sosyal Medya Önizleme Kartları (Open Graph) -->
-    <meta property="og:title" content="ANKA AI - Yapay Zeka Asistanı">
+    <meta property="og:title" content="ART AI - Yapay Zeka Asistanı">
     <meta property="og:description" content="Rana Nisa Topçu tarafından geliştirilen akıllı yapay zeka asistanı.">
     <meta property="og:type" content="website">
 
@@ -300,20 +300,20 @@
                         
                         const imageHTML = `<img src="${imgUrl}" alt="Üretilen Görsel" onload="document.getElementById('messages').scrollTop = document.getElementById('messages').scrollHeight;">`;
                         
-                        appendMessage('ANKA', imageHTML, 'anka');
+                        appendMessage('ART', imageHTML, 'anka');
                         allChats[currentChatId].history.push({ role: "model", parts: [{ text: reply }] });
                     } else {
                         allChats[currentChatId].history.push({ role: "model", parts: [{ text: reply }] });
-                        appendMessage('ANKA', reply, 'anka');
+                        appendMessage('ART', reply, 'anka');
                     }
                 } else if (data.error) {
-                    appendMessage('ANKA', 'Hata: ' + data.error.message, 'anka');
+                    appendMessage('ART', 'Hata: ' + data.error.message, 'anka');
                 } else {
-                    appendMessage('ANKA', 'Yanıt alınamadı. Lütfen tekrar deneyin.', 'anka');
+                    appendMessage('ART', 'Yanıt alınamadı. Lütfen tekrar deneyin.', 'anka');
                 }
 
             } catch (err) {
-                appendMessage('ANKA', 'Hata: ' + err.message, 'anka');
+                appendMessage('ART', 'Hata: ' + err.message, 'anka');
             }
         }
 
