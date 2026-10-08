@@ -1,6 +1,6 @@
-# 🦅 ANKA AI
+# 🦅 ART-AI
 
-ANKA AI, Gemini API altyapısıyla güçlendirilmiş, sohbet edebilen, soru-cevap yapabilen ve eğitim/öğrenim süreçlerine yardımcı olan yapay zeka asistanıdır.
+ART AI, Gemini API altyapısıyla güçlendirilmiş, sohbet edebilen, soru-cevap yapabilen ve eğitim/öğrenim süreçlerine yardımcı olan yapay zeka asistanıdır.
 
 ## 🚀 Özellikler
 - **Hızlı ve Doğal Sohbet:** Kullanıcı sorularına anında ve akıcı yanıtlar sunar.
